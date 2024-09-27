@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test task</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <section class="place">
+      <div class="place-wrapper">
+        <p class="place-title">It’s a hot place for your streaming fantasy.</p>
+        <p class="place-desc">It’s a free space for watching streams and chatting with alluring people.</p>
+      </div>
+      <a class="place-button" href="#form">
+        <span>Sign up now</span>
+      </a>
+    </section>
+    <section class="login" id="form">
+      <div class="login-wrapper">
+        <div class="login-text">
+          <p class="login-text-header">It’s a hot place for your streaming fantasy.</p>
+          <p class="login-text-desc">It’s a free space for watching streams and chatting with alluring people.</p>
+        </div>
+        <div class="login-form desktop">
+          <div class="login-form-wrapper">
+            <button class="login-google-button">
+              <img src="media/google.png" alt="Google Logo" />
+              <span>Sign up with Google</span>
+            </button>
+            <p class="login-or">or</p>
+            <div class="login-input-wrapper">
+              <label class="login-label" for="mail">Email</label>
+              <input
+                class="login-input"
+                name="mail"
+                id="mail"
+                type="email"
+                placeholder="e.g. Alex@email.com"
+                required />
+            </div>
+            <div class="login-input-wrapper">
+              <label class="login-label" for="name">Password</label>
+              <input class="login-input" name="pass" id="pass" type="password" placeholder="8+ characters" required />
+            </div>
+            <button class="login-signin-button">
+              <img src="media/envelope.png" alt="Email Icon" />
+              <span>Sign up with Email</span>
+            </button>
+            <p class="login-terms">
+              You hereby confirm that you are fully able and competent to access Livebeam and comply with the Terms of
+              Use & Service, and are at least eighteen (18) years of age or the age of majority under the law of the
+              jurisdiction of your residence and the one you are accessing Livebeam from.
+            </p>
+            <ul class="lines">
+              <li class="line"></li>
+              <li class="line active"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="login-form mobile">
+          <div class="login-form-wrapper">
+            <div class="login-input-wrapper">
+              <label class="login-label" for="mail">I am</label>
+              <div class="login-gender">
+                <div class="login-gender-male login-gender-text">Male</div>
+                <div class="login-gender-female login-gender-text">Female</div>
+              </div>
+            </div>
+            <div class="login-input-wrapper">
+              <label class="login-label" for="mail">My name</label>
+              <input class="login-input" name="name" id="name" type="text" placeholder="e.g. Alex" required />
+            </div>
+            <div class="login-input-wrapper">
+              <label class="login-label" for="name">I was born</label>
+              <input class="login-input" name="pass" id="pass" type="password" placeholder="MM//DD//YYYY" required />
+            </div>
+            <div class="login-checkbox-wrapper">
+              <input class="login-checkbox" type="checkbox" id="myCheckbox" />
+              <label for="myCheckbox"
+                >I have read understand and agree to Terms of Use, Privacy Policy, Disclosures&Disclaimers.</label
+              >
+            </div>
+            <button class="login-signup-button">
+              <span>Sign up now</span>
+            </button>
+            <ul class="lines">
+              <li class="line active"></li>
+              <li class="line"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slider">
+      <div class="swiper mainSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="media/slider-1.gif" alt="Gif image" /></div>
+          <div class="swiper-slide"><img src="media/slider-2.gif" alt="Gif image" /></div>
+          <div class="swiper-slide"><img src="media/slider-1.gif" alt="Gif image" /></div>
+          <div class="swiper-slide"><img src="media/slider-2.gif" alt="Gif image" /></div>
+          <div class="swiper-slide"><img src="media/slider-1.gif" alt="Gif image" /></div>
+          <div class="swiper-slide"><img src="media/slider-2.gif" alt="Gif image" /></div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about-wrapper">
+        <p class="about-title">About</p>
+        <p class="about-text">
+          It’s a global <b>streaming platform</b> for communication and meeting incredibly beautiful people. We created
+          an excellent place where you can enjoy your time and <b>find appropriate matches</b> at first.
+        </p>
+        <p class="about-text">
+          Approximately 80% of our users have already found their lovelies. <b>Watch streams</b> without hindrance and
+          meet someone <b>who interests you.</b>
+        </p>
+        <a class="about-button" href="#form">Join for free</a>
+      </div>
+    </section>
+    <section class="whyjoin">
+      <p class="whyjoin-title">Why join us?</p>
+      <div class="whyjoin-wrapper desktop">
+        <div class="whyjoin-item whyjoin-item-first">
+          <div class="whyjoin-item-title">
+            <img src="media/steam.svg" alt="steam icon" />
+            <p class="whyjoin-item-text">Chat with attractive streamers for free</p>
+          </div>
+          <div class="whyjoin-item-desc">
+            It’s an excellent web platform for streaming. Write messages to the beautiful streamers for free and explore
+            this magical universe of communication!
+          </div>
+        </div>
+        <div class="whyjoin-item whyjoin-item-second">
+          <div class="whyjoin-item-title">
+            <img src="media/lock.svg" alt="lock icon" width="36" height="36" />
+            <p class="whyjoin-item-text">Only verified users</p>
+          </div>
+          <div class="whyjoin-item-desc">
+            We care about the privacy and security of our customers. All accounts are verified so look for an attractive
+            stranger confidently!
+          </div>
+        </div>
+        <div class="whyjoin-item whyjoin-item-third">
+          <div class="whyjoin-item-title">
+            <img src="media/search.svg" alt="search icon" width="36" height="36" />
+            <p class="whyjoin-item-text">Customized search</p>
+          </div>
+          <div class="whyjoin-item-desc">
+            Match alluring partners for your own preferences. Maybe you will be interested in a hot slender European or
+            shy beautiful Asian? Make your choice…
+          </div>
+        </div>
+        <div class="whyjoin-item whyjoin-item-fourth">
+          <div class="whyjoin-item-title">
+            <img src="media/easy.svg" alt="easy icon" width="36" height="36" />
+            <p class="whyjoin-item-text">Easy to use</p>
+          </div>
+          <div class="whyjoin-item-desc">
+            Forget about hundreds of annoying notifications and inconvenient use. We have created the platform as easy
+            to use and search as possible. Don’t waste your time studying functionality. Just enjoy!
+          </div>
+        </div>
+      </div>
+      <div class="whyjoin-wrapper mobile">
+        <div class="swiper whyjoinSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="whyjoin-item whyjoin-item-first">
+                <div class="whyjoin-item-title">
+                  <img src="media/steam.svg" alt="steam icon" />
+                  <p class="whyjoin-item-text">Chat with attractive streamers for free</p>
+                </div>
+                <div class="whyjoin-item-desc">
+                  It’s an excellent web platform for streaming. Write messages to the beautiful streamers for free and
+                  explore this magical universe of communication!
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="whyjoin-item whyjoin-item-second">
+                <div class="whyjoin-item-title">
+                  <img src="media/lock.svg" alt="lock icon" width="36" height="36" />
+                  <p class="whyjoin-item-text">Only verified users</p>
+                </div>
+                <div class="whyjoin-item-desc">
+                  We care about the privacy and security of our customers. All accounts are verified so look for an
+                  attractive stranger confidently!
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="whyjoin-item whyjoin-item-third">
+                <div class="whyjoin-item-title">
+                  <img src="media/search.svg" alt="search icon" width="36" height="36" />
+                  <p class="whyjoin-item-text">Customized search</p>
+                </div>
+                <div class="whyjoin-item-desc">
+                  Match alluring partners for your own preferences. Maybe you will be interested in a hot slender
+                  European or shy beautiful Asian? Make your choice…
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="whyjoin-item whyjoin-item-fourth">
+                <div class="whyjoin-item-title">
+                  <img src="media/easy.svg" alt="easy icon" width="36" height="36" />
+                  <p class="whyjoin-item-text">Easy to use</p>
+                </div>
+                <div class="whyjoin-item-desc">
+                  Forget about hundreds of annoying notifications and inconvenient use. We have created the platform as
+                  easy to use and search as possible. Don’t waste your time studying functionality. Just enjoy!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="whyjoin-image">
+          <img src="media/streamer-1.jpg" alt="streamer image" />
+        </div>
+      </div>
+    </section>
+    <section class="find">
+      <p class="find-title">Here you can find</p>
+      <div class="find-wrapper">
+        <div class="find-item">
+          <img class="find-item-image" src="media/pc.svg" alt="find list icon" />
+          <p class="find-item-text">Watching streams of everyone you really like;</p>
+        </div>
+        <div class="find-item">
+          <img class="find-item-image" src="media/comm.svg" alt="find list icon" />
+          <p class="find-item-text">Free communication with pretty streamers;</p>
+        </div>
+        <div class="find-item">
+          <img class="find-item-image" src="media/connection.svg" alt="find list icon" />
+          <p class="find-item-text">Sweet connection with people you match;</p>
+        </div>
+        <div class="find-item">
+          <img class="find-item-image" src="media/interests.svg" alt="find list icon" />
+          <p class="find-item-text">New acquaintances with someone who has similar interests;</p>
+        </div>
+        <div class="find-item">
+          <img class="find-item-image" src="media/sound.svg" alt="find list icon" />
+          <p class="find-item-text">Fascinating hobbies and exciting occupations from people you fancy.</p>
+        </div>
+      </div>
+    </section>
+    <section class="join">
+      <div class="join-wrapper">
+        <p class="join-title">It’s a universe of communication and streaming without borders!</p>
+        <p class="join-text">
+          Let yourself to be free – share your thoughts, delight, and fears with beautiful strangers!
+        </p>
+      </div>
+      <div class="swiper joinSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="media/join-image-2.jpg" alt="Join image" /></div>
+          <div class="swiper-slide"><img src="media/join-image-3.jpg" alt="Join image" /></div>
+          <div class="swiper-slide"><img src="media/join-image-4.jpg" alt="Join image" /></div>
+          <div class="swiper-slide"><img src="media/join-image-2.jpg" alt="Join image" /></div>
+          <div class="swiper-slide"><img src="media/join-image-3.jpg" alt="Join image" /></div>
+          <div class="swiper-slide"><img src="media/join-image-4.jpg" alt="Join image" /></div>
+        </div>
+      </div>
+      <a class="join-button" href="#form">Join us for free</a>
+    </section>
+    <section class="write">
+      <div class="write-wrapper">
+        <div class="write-desc">
+          <p class="write-title">It’s a dedicated space for your bold fantasies!</p>
+          <p class="write-text">
+            Hundreds of attractive admirers are already waiting for you here. Don’t delay – dive into the world of
+            streaming, flirting, and hot communication right now!
+          </p>
+          <a class="write-button" href="#form">Write to her</a>
+        </div>
+        <div class="write-image">
+          <img src="media/write.png" alt="write section image" />
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-mail footer-item">
+          <p class="footer-email">support@gmail.com</p>
+          <p class="footer-unsubscribe">Unsubscribe</p>
+        </div>
+        <div class="footer-terms footer-item">
+          <p class="footer-terms-title title"><strong>Legal terms</strong></p>
+          <p class="foofter-terms-text text">Terms of Use</p>
+          <p class="foofter-terms-text text">Diclosures&Disclaimers</p>
+        </div>
+        <div class="footer-privacy footer-item">
+          <p class="footer-privacy-title title"><strong>Privacy Info</strong></p>
+          <p class="footer-privacy-text text">Privacy Policy</p>
+          <p class="footer-privacy-text text">Cookie Policy</p>
+        </div>
+        <div class="footer-about footer-item">
+          <p class="footer-about-title title"><strong>About</strong></p>
+          <p class="footer-about-text text">About us</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      const swiperMain = new Swiper('.mainSwiper', {
+        slidesPerView: 'auto',
+        initialSlide: 1,
+        loop: true,
+        centeredSlides: true,
+        spaceBetween: 40,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            initialSlide: 0,
+            spaceBetween: 40,
+          },
+          768: {
+            slidesPerView: 'auto',
+          },
+        },
+      });
+
+      const swiperWhyJoin = new Swiper('.whyjoinSwiper', {
+        slidesPerView: 1,
+        loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+      });
+
+      const swiperJoin = new Swiper('.joinSwiper', {
+        slidesPerView: 'auto',
+        loop: true,
+        centeredSlides: true,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 'auto',
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
