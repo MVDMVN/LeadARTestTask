@@ -124,6 +124,55 @@ body {
   line-height: 28px;
 }
 
+.login-form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-login {
+  display: block;
+  width: 135px;
+  background: linear-gradient(90deg, #579aff 11.17%, #574dcc 96.28%);
+  text-align: center;
+  padding: 13px 20px;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 256ms all;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  margin-bottom: 75px;
+}
+
+.login-form-login:before {
+  background: #fff;
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.login-form-login:after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  background: #fff;
+  transition: 256ms all;
+  z-index: -1;
+  border-radius: 10px;
+}
+
 .login-form.desktop {
   display: flex;
   background-color: white;
@@ -248,6 +297,22 @@ body {
 
 .line.active {
   background-color: rgba(88, 147, 250, 1);
+}
+
+@media screen and (max-width: 1366px) {
+  .login-text {
+    max-width: 480px;
+  }
+
+  .login-text-header {
+    font-size: 42px;
+    line-height: 56px;
+  }
+
+  .login-text-desc {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
